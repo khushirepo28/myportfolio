@@ -260,3 +260,64 @@ span{
     font-size: 12px;
     color: white;
 }
+
+.header {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    body {
+        padding-top: 100px;
+    }
+    .home {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        padding: 30px 5%;
+    }
+    .img-box img {
+        width: 250px;
+        height: auto;
+    }
+    .home-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .btn-box {
+        justify-content: center;
+        width: 100%;
+    }
+    .navbar a {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    .a1 {
+        flex-direction: column;
+        padding: 5% 5%;
+        gap: 2em;
+    }
+    .about-img img {
+        width: 250px;
+    }
+    .a2 h2, .a2 h3, .a2 p {
+        text-align: center;
+    }
+    .c1 form {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .c1 form .input-box {
+        flex-direction: column;
+    }
+    .c1 form .input-box input,
+    .c1 form textarea {
+        width: 100%;
+    }
+    .f1 .s1 a {
+        margin: 0 5px;
+        font-size: 20px;
+    }
+    .f1 ul li {
+        display: block;
+        padding: 8px 0;
+    }
+}
